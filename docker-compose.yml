@@ -1,0 +1,16 @@
+version: "3"
+services:
+  redis:
+    # image name and version
+    image: redis:7
+    # container name
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis-data:/data
+    # restart policy
+    command: ["redis-server", "--appendonly", "yes"]
+
+volumes:
+  redis-data:

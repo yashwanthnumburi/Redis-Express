@@ -1,0 +1,25 @@
+{
+  "name": "redis-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashwanthnumburi/Redis-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashwanthnumburi/Redis-Express/issues"
+  },
+  "homepage": "https://github.com/yashwanthnumburi/Redis-Express#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "redis": "^5.0.1"
+  }
+}
